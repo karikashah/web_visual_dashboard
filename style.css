@@ -1,6 +1,5 @@
 body {
   background-color: rgb(243, 243, 243);
-  font-size: 18px;
 }
 
 h1 {
@@ -13,10 +12,6 @@ h3 {
    color: rgb(12, 173, 167);
    font-family: Georgia;
    font-weight: bold;
-}
-
-p {
- font-family: Georgia;
 }
 
 a {
@@ -44,15 +39,8 @@ a {
 }
 
 /* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
-@media (max-width: 480px) {
-  .navbar {
-    background-color: rgb(12, 173, 167);
-  }
-
-  .navbar-brand {
-                background-color:rgb(12, 173, 167);
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-weight: bold;
-                color:  white;
+@media screen and (max-width: 1020px) {
+  .container-fluid {
+    background-color:rgb(12, 173, 167);
   }
 }
