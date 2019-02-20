@@ -19,13 +19,18 @@ a {
   -webkit-tap-highlight-color: white;
 }
 
-.container-fluid {
-  background-color: white;
-}
+  .container-fluid {
+    background-color: white;
+  }
 
 a {
   color: black;
 
+}
+
+.nav-link.dropdown-toggle {
+  background-color: rgb(12, 173, 167);
+  color: black;
 }
 
 .navbar-brand {
