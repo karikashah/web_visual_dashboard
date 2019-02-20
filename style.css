@@ -14,20 +14,10 @@ h2 {
   font-weight: bold;
 }
 
-
 h3 {
    color: rgb(12, 173, 167);
    font-family: Georgia;
    font-weight: bold;
-}
-
-/* a {
-  text-decoration-color: white;
-  -webkit-tap-highlight-color: white;
-} */
-
-.container-fluid {
-  background-color: white;
 }
 
 .navbar-brand {
@@ -46,10 +36,6 @@ h3 {
 
 /* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
 @media screen and (max-width: 1020px) {
-  .container-fluid {
-    background-color:rgb(12, 173, 167);
-  }
-
   .navbar {
     background-color: rgb(12, 173, 167);
   }
